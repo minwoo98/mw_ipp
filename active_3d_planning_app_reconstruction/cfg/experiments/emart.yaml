@@ -1,0 +1,25 @@
+# Experiment (emart) specific parameters
+
+# Bounding boxes (in initialization frame, relative to PlayerStart)
+map_bounding_volume:
+  x_min: -23.0 #-22
+  x_max: 3 #0
+  y_min: -19 #-26
+  y_max: 17 #26
+  z_min: -0.5 #-1.5
+  z_max: 13 #15
+
+target_bounding_volume:
+  x_min: -20 #-18
+  x_max: 0 #-3.2
+  y_min: -16 #-24
+  y_max: 14 #24
+  z_min: 0 #0
+  z_max: 12 #12
+
+# System Constraints
+planner:
+  system_constraints:
+    v_max: 1.0
+    a_max: 1.0
+    yaw_rate_max: 1.57
